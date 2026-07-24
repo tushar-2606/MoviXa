@@ -1,0 +1,21 @@
+<svg width="512" height="320" viewBox="0 0 512 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d2d"/>
+      <stop offset="100%" stop-color="#d9001b"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b0012"/>
+      <stop offset="100%" stop-color="#c1122b"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M70 245 C105 245 118 225 138 195 L200 100 C210 84 232 84 242 100 L278 155 L248 195 L195 125 L140 210 C118 244 103 260 70 260 C50 260 40 250 40 235 C40 220 52 210 70 210Z" fill="url(#darkGrad)"/>
+    <path d="M248 195 L278 155 L338 245 L248 245Z" fill="#971323"/>
+    <path d="M248 195 L310 100 C320 84 342 84 352 100 L472 280 C462 290 445 292 428 292 C402 292 385 280 370 258 L320 180 L278 245 L248 195Z" fill="url(#redGrad)"/>
+    <path d="M70 245 L200 100 C210 84 232 84 242 100 L278 155 L248 195 L195 125 L120 235 C110 250 92 260 70 260 Z" fill="url(#redGrad)"/>
+  </g>
+</svg>
